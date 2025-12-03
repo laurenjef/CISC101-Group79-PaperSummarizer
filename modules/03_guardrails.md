@@ -1,3 +1,4 @@
+// Added strict evidence mode to only include claims, variables and equations that appear in text
 
 ### **Module 3 — Guardrails **
 
