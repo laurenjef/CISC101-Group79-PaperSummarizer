@@ -1,3 +1,4 @@
+// added summary level to adjust the length of summarys, rendering module 6 obsolete
 
 ### **Module 2 — Section Loop (section → summarize)**
 
