@@ -114,34 +114,21 @@ The paper introduces the Transformer, a neural architecture that eliminates recu
  On machine translation tasks (WMT 2014 En–De, En–Fr), the Transformer achieves SOTA performance while being faster, more scalable, and more parallelizable than RNNs and CNNs.
 
 **Section-by-Section Table**
-Section
-Purpose / Key Ideas
-1. Introduction
-Motivation: RNNs/CNNs limit parallelization. Proposal: a fully attention-based model. Demonstrates major efficiency gains.
-2. Background
-Reviews sequence modeling and attention mechanisms. Introduces concepts needed for the Transformer.
-3. Model Architecture
-Defines Transformer architecture: encoder–decoder stacks, multi-head attention, feed-forward networks. Core mathematical details.
-3.1 Encoder
-Describes 6-layer encoder with self-attention + feed-forward layers. Layer normalization and residual connections.
-3.2 Decoder
-Similar to encoder but includes masked self-attention + encoder–decoder attention.
-3.3 Attention
-Defines scaled dot-product attention and multi-head attention formulas.
-3.4 Position-wise Feed-Forward Networks
-Introduces per-position MLP applied to each token.
-3.5 Positional Encoding
-Describes sinusoidal encodings to represent token positions in sequences.
-4. Why Self-Attention?
-Compares computational complexity, total path length, and efficiency advantages relative to RNNs/CNNs.
-5. Training
-Hyperparameters, label smoothing, dropout, Adam optimizer, learning rate schedule (warmup).
-6. Results
-SOTA machine translation performance; faster training. Also results for English constituency parsing.
-7. Conclusion
-Self-attention-only architecture is effective and efficient; opens new research directions.
-Appendix
-Additional training details, hyperparameters, extended results.
+| Section | Key Ideas | 
+|1. Introduction|Motivation: RNNs/CNNs limit parallelization. Proposal: a fully attention-based model. Demonstrates major efficiency gains.|
+|2. Background | Reviews sequence modeling and attention mechanisms. Introduces concepts needed for the Transformer.|
+|3. Model Architecture|
+Defines Transformer architecture: encoder–decoder stacks, multi-head attention, feed-forward networks. Core mathematical details.|
+|3.1 Encoder| Describes 6-layer encoder with self-attention + feed-forward layers. Layer normalization and residual connections.|
+|3.2 Decoder|Similar to encoder but includes masked self-attention + encoder–decoder attention.|
+|3.3 Attention| Defines scaled dot-product attention and multi-head attention formulas.|
+|3.4 Position-wise Feed-Forward Networks | Introduces per-position MLP applied to each token.|
+|3.5 Positional Encoding | Describes sinusoidal encodings to represent token positions in sequences.|
+|4. Why Self-Attention?|Compares computational complexity, total path length, and efficiency advantages relative to RNNs/CNNs.|
+|5. Training| Hyperparameters, label smoothing, dropout, Adam optimizer, learning rate schedule (warmup). |
+|6. Results| SOTA machine translation performance; faster training. Also results for English constituency parsing.|
+|7. Conclusion| Self-attention-only architecture is effective and efficient; opens new research directions.|
+|Appendix| Additional training details, hyperparameters, extended results.|
 
 
 **Mini-Glossary**
