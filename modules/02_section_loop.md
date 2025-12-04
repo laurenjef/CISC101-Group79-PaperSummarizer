@@ -8,7 +8,7 @@ If `summary_level = "short"`
 Then provide 1–2 sentence summary per section in the table, override 'module 06_word_count_expansion_or_compression.md'
 
  If `summary_level = "detailed"`
-then provide a short paragraph and a bullet list of 3–5 key points for each section in the table , override , override 'module 06_word_count_expansion_or_compression.md'
+then provide a short paragraph and a bullet list of 3–5 key points for each section in the table , override 'module 06_word_count_expansion_or_compression.md'
 
 for each section → summarize key ideas , check constraints
 
